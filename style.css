@@ -1,0 +1,635 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1920;
+
+}
+
+
+.navbar {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    background: burlywood;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.navbar ul li {
+    list-style: none;
+    padding: 15px 25px;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+
+}
+.navbar ul li:hover {
+    background: brown;
+    color: aqua;
+
+
+}
+.navbar ul li a:hover {
+    color: blanchedalmond;
+}
+@media (max-width: 768px){
+    .navbar ul{
+        flex-direction: column;
+    }
+.navbar ul li {
+    width: 100px;
+    text-align: center;
+}
+}
+.slika1 {
+    height: 150px;
+    width: 20%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    
+
+    
+    
+}
+.slika1:hover {
+    transform: scale(0.8); 
+
+
+}
+.slika2 {
+    width: 800px;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 200px;
+    border-radius: 10%;
+    border: 10px solid brown;
+    transition: transform 0.3s ease;
+   
+    
+    
+
+}
+.slika2:hover {
+    transform: scale(1.1); 
+
+}
+.header {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    animation: moveAndReturn 3s ease-in-out;
+}
+@keyframes moveAndReturn {
+    0% {
+        transform: translateX(0); 
+    }
+    50% {
+        transform: translateX(200px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+    
+    
+    
+
+
+    
+
+
+    
+ 
+  
+
+
+
+.paragraf{
+    margin-left: 200px;
+    margin-right: 200px;
+    background: lightgrey;
+}
+
+.naslov1 {
+    text-align: center;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+
+
+footer {
+    text-align: center;
+    background-color: burlywood;
+    position: relative;
+    padding: 20px;
+    color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+footer ul li a:hover {
+    background: brown;
+    color: blanchedalmond;
+
+}
+.pozadina{
+    background: palegoldenrod;
+}
+.onama {
+    background: #f4f4f4;
+}
+.lesok {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    animation: moveAndReturn 3s ease-in-out;
+}
+    @keyframes moveAndReturn {
+        0% {
+            transform: translateX(0); 
+        }
+        50% {
+            transform: translateX(200px); 
+        }
+        100% {
+            transform: translateX(0); 
+        }
+
+}
+.vrelip {
+    color: grey;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    background: lightyellow;
+
+
+}
+.lesokk {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    animation: moveLeftAndReturn 3s ease-in-out;
+}
+@keyframes moveLeftAndReturn {
+    0% {
+        transform: translateX(0); 
+    }
+    50% {
+        transform: translateX(-200px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}
+
+.slika3 {
+    border:  10px solid black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    
+
+}
+.slika3:hover{
+    transform: scale(1.2); 
+
+
+}
+.para1 {
+    position: absolute;
+    left: 450px;
+    top: 630px;
+    color: gray;
+    background: lightyellow;
+}
+.slika4 {
+    border: 10px solid black;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.slika4:hover {
+    transform: scale(1.2); 
+
+}
+.saznaj {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+
+}
+.saznaj:hover {
+    background: brown;
+    color: aqua;
+}
+.forma {
+    padding: 10px 25px;
+    color: black;
+    background: lightcyan;
+
+}
+.forma:hover {
+    background: brown;
+    color: black;
+}
+.forma2 {
+    padding:10px 25px  ;
+    color: black;
+    background: grey;
+}
+.forma3 {
+    padding: 15px 30px;
+    color: black;
+    background: yellow;
+}
+.forma4 {
+    padding: 10px 20px;
+
+    
+}
+.forma4:hover {
+    background: brown;
+    color: aquamarine;
+}
+.forma5 {
+    padding: 5px 5px;
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+
+}
+.forma5:hover {
+    background: brown;
+    color: aquamarine;
+    font-weight: bold;
+}
+.pozadina2 {
+    background: palegoldenrod;
+}
+.pozadina3 {
+    background-color: palegoldenrod;
+}
+.naslov89 {
+    text-align: center;
+    color: #333;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    animation: moveAndReturn 3s ease-in-out;
+    
+    
+
+
+}
+
+@keyframes moveAndReturn {
+    0% {
+        transform: translateX(0); 
+    }
+    50% {
+        transform: translateX(200px); 
+    }
+    100% {
+        transform: translateX(0); 
+    }
+    }
+
+.naslov90 {
+    color: #333;
+    font-style: oblique;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    display: inline-block; 
+    animation: rotateAndReset 3s linear; 
+   
+}
+@keyframes rotateAndReset {
+    0% {
+        transform: rotate(0deg); 
+    }
+    50% {
+        transform: rotate(360deg); 
+    }
+    100% {
+        transform: rotate(0deg); 
+    }
+}
+.paragraf2 {
+    position: absolute;
+    left:400px ;
+    top: 150px;
+    color: gray;
+
+}
+.slika10 {
+    border:20px solid black ;
+    border-radius: 30%; 
+    transition: transform 0.3s ease; 
+}
+    .slika10:hover {
+        transform: scale(1.2); 
+        
+    }
+
+   .vrelipen {
+    padding: 10px 25px;
+    background: brown;
+    color: aliceblue;
+    text-decoration: none;
+
+
+   }
+   .vrelipen:hover {
+    padding: 10px 25px;
+    background: orange;
+    color: grey;
+    transition-duration: 0.5s;
+    
+   }
+   .naslov91 {
+    color: #333;
+    font-style: oblique;
+   }
+   
+   .paragraf5 {
+    position: absolute;
+    left: 400px;
+    top: 450px;
+    color: gray;
+   }
+   .slika86 {
+    border: 20px solid black;
+    border-radius: 30%;
+    transition: transform 0.3s ease;}
+.slika86:hover{
+    transform: scale(1.2); 
+}
+
+   
+   .bildo {
+    padding: 10px 25px;
+    background: brown;
+    color: aliceblue;
+    text-decoration: none;
+
+    
+   }
+   .bildo:hover {
+    padding: 10px 25px;
+    background: orange;
+    color: grey;
+    transition-duration: 0.5s;
+   }
+   .lesinaok {
+    color: #333;
+    font-style: oblique;
+    font-size: 2rem;
+    text-align: center;
+    color: #333; 
+    animation: rotateAndReset 3s linear; 
+}
+@keyframes rotateAndReset {
+    0% {
+        transform: rotate(0deg); 
+    }
+    50% {
+        transform: rotate(360deg); 
+    }
+    100% {
+        transform: rotate(0deg); 
+    }
+}
+
+
+   
+   .rekosamti {
+    position: absolute;
+    left: 400px;
+    top: 800px;
+    color: grey;
+   }
+   .lijepaslika {
+    
+    
+    border: 20px solid black;
+    border-radius: 30%;
+    transition: transform 0.3s ease;
+
+   }
+   .lijepaslika:hover {
+    transform: scale(1.2); 
+   }
+.erek {
+    padding: 10px 25px;
+    background: brown;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    top: 900px;
+    right: 1100px;
+
+}
+.erek:hover {
+    padding: 10px 25px;
+    background: orange;
+    color: gray;
+    transition-duration: 0.5s;
+}
+.kanjon {
+    color: #333;
+    font-style: oblique;
+
+}
+.kanjoning {
+    position: absolute;
+    left: 400px;
+    top: 1100px;
+    color: gray;
+
+
+}
+.kanj {
+    border: 20px solid black;
+    border-radius: 30%;
+    transition: transform 0.3s ease;
+}
+.kanj:hover {
+    transform: scale(1.2);
+}
+
+.mili {
+    padding: 10px 25px;
+    background: brown;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    top: 1200px;
+    right: 1100px;
+    
+
+}
+.mili:hover{
+    padding: 10px 15px;
+    background: orange;
+    color: gray;
+    transition-duration: 0.5s;
+
+}
+.ponuda1{
+    right: 0px;
+    position: absolute;
+    border-radius: 30%;
+    border: 10px solid brown;
+
+}
+.ponuda2{
+    position: absolute;
+    left: 450px;
+    border-radius: 30%;
+    border: 10px solid brown;
+
+}
+.ponuda3 {
+    border-radius: 30%;
+    border: 10px solid brown;
+}
+.jelovnik {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+.obroci {
+    font-weight: bold;
+    color: #333;
+}
+.odrlista {
+    color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    font-weight: bold;
+    background: lightyellow;
+}
+.dorucak {
+    color: grey;
+}
+.rucak {
+    color: grey;
+}
+.vecera {
+    color: grey;
+
+}
+.napomena {
+    color: #333;
+    font-weight: bold;
+}
+.napjelovnik {
+    color: grey;
+    font-weight: bold;
+}
+.raf1 {
+    color: #333;
+    font-weight: bold;
+
+}
+.tabela {
+     
+        border-collapse: collapse; 
+        margin: 25px 0;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        width: 100%;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    
+}
+.tabela1 thead tr {
+    background-color: #009879; 
+    color: #ffffff; 
+    text-align: left;
+}
+.tabela th, .tabela td {
+    border: 1px solid #dddddd; 
+    padding: 12px 15px;
+}
+.tabela tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.tabela tbody tr:nth-of-type(even){
+    background-color: lightskyblue; 
+}
+.tabela tbody tr:hover {
+    background-color: lightslategray;
+}
+.ponudica {
+    border-radius: 30%;
+    border: dotted black;
+}
+.ponudica2 {
+    border-radius: 30%;
+    border: 10px solid black;
+}
+.ponudica3 {
+    border-radius: 30%;
+    border: 10px solid black;
+
+}
+.ponudica4 {
+    border-radius: 30%;
+    border: 10px solid black;
+}
+.ponudica5 {
+    border-radius: 30%;
+    border: 10px solid black;
+}
+.hiking {
+    color: #333;
+    font-weight: bold;
+    background: lightyellow;
+    
+}
+.nabrajanje {
+    color: gray;
+    font-weight: bold;
+    background: lightyellow;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
